@@ -1,8 +1,10 @@
-import "./App.css";
+import React from "react";
 
 const App = () => {
   return (
-    <div></div>
+    <React.Fragment>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias maxime at, rem consequatur eligendi incidunt mollitia earum placeat, voluptas cupiditate, provident impedit quae adipisci perspiciatis! Tenetur facilis enim rem delectus.</p>
+    </React.Fragment>
   );
 }
 

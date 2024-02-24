@@ -1,0 +1,42 @@
+@import "./variables";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+
+  body {
+    background-color: $soft-white;
+    color: $soft-black;
+    line-height: normal;
+    letter-spacing: normal;
+    font-size: 1rem;
+    font-style: normal;
+    font-family: $roboto-font;
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    button:hover {
+      cursor: pointer;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      font: inherit;
+    }
+
+    p, span, div {
+      font: inherit;
+    }
+
+    ul {
+      list-style-type: none;
+    }
+  }
+}
